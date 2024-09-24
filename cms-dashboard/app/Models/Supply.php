@@ -10,7 +10,7 @@ class Supply extends Model
     use HasFactory;
 
     protected $table = 'supply';
-
+    public $timestamps = false;
     protected $fillable = [
         'name',
         'price_per_unit',
