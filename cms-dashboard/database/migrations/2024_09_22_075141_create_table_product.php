@@ -5,7 +5,7 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\DB;
 
-class CreateProductsTable extends Migration
+class CreateTableProduct extends Migration
 {
     public function up()
     {
