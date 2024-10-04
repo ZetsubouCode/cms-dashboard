@@ -16,6 +16,8 @@ class Payment extends Model
         'order_id',
         'payment_status',
         'date_payment',
+        'reference_code',
+        'receipt_image_url',
     ];
 
     public function order()

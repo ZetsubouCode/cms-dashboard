@@ -10,9 +10,9 @@ class Product extends Model
     use HasFactory;
 
     protected $table = 'product';
-
+    public $timestamps = false;
     protected $fillable = [
-        'categories_id',
+        'category_id',
         'name',
         'description',
         'quantity',
@@ -23,20 +23,20 @@ class Product extends Model
 
     public function category()
     {
-        return $this->belongsTo(Category::class, 'categories_id');
+        return $this->belongsTo(Category::class, 'category_id');
     }
 
-    public function orderItems()
+    public function orderItem()
     {
         return $this->hasMany(OrderItem::class);
     }
 
-    public function reviews()
+    public function review()
     {
         return $this->hasMany(Review::class);
     }
 
-    public function supplies()
+    public function supply()
     {
         return $this->belongsToMany(Supply::class, 'product_supply');
     }
