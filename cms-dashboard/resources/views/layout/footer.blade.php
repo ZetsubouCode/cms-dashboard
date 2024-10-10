@@ -1,4 +1,49 @@
 <!-- Footer Section Start -->
+<div class="modal fade " id="MessageModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="ModalTitle">-</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteModalLabel">Confirm Deletion</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Are you sure you want to delete <span id="deleteItemName"></span>?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <form id="deleteForm" action="" method="POST">
+                    @csrf
+                    @method('DELETE')
+                    <button type="submit" class="btn btn-danger">Yes, Delete</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <footer class="footer">
   <div class="footer-body">
       <ul class="left-panel list-inline mb-0 p-0">
@@ -47,3 +92,57 @@
 
 <!-- App Script -->
 <script src="{{ asset('assets/js/hope-ui.js') }}" defer></script>
+
+{{-- Preview image --}}
+<script>
+    document.getElementById('upload_image').addEventListener('change', function(event) {
+        const file = event.target.files[0];
+        if (file) {
+            // Check if the selected file is an image
+            if (file.type.startsWith('image/')) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    // Set the preview image source to the uploaded file data
+                    document.getElementById('previewImg').src = e.target.result;
+                    document.getElementById('imagePreview').style.display = 'block';
+                };
+                reader.readAsDataURL(file);
+            } else {
+                alert('Please upload a valid image file.');
+            }
+        } else {
+            // Hide the image preview if no file is selected
+            document.getElementById('imagePreview').style.display = 'none';
+        }
+    });
+</script>
+
+@if(isset($error))
+<script>
+    // Wait for the DOM to be fully loaded
+    document.addEventListener("DOMContentLoaded", function() {
+        // Trigger the modal
+        var exampleModal = new bootstrap.Modal(document.getElementById('MessageModal'));
+        var message_exist = {{isset($error)? 'true':'false'}}
+        if (message_exist){
+            document.getElementById('ModalTitle').innerHTML = "Error";
+            exampleModal.show();
+        }
+    });
+</script>
+@endif
+
+<script>
+    function openDeleteModal(name, route) {
+    // Set the item name in the modal body
+    document.getElementById('deleteItemName').textContent = name;
+    // Set the form action with the correct delete route
+    document.getElementById('deleteForm').action = `${route}`;
+    
+    // Show the modal
+    var deleteModal = new bootstrap.Modal(document.getElementById('deleteModal'));
+    deleteModal.show();
+}
+</script>
+
+

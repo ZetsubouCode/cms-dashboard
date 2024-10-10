@@ -17,7 +17,7 @@
             @yield('content')
         </main>
     </div>
-
+    @include('layout.setting')
     <!-- Include the footer -->
     @include('layout.footer')
 </body>
