@@ -1,28 +1,31 @@
+
+
+
 <!doctype html>
 <html lang="en" dir="ltr" data-bs-theme="light" data-bs-theme-color="theme-color-default">
   <head>
     <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>CMS Dashboard</title>
+      <title>Hope UI | Responsive Bootstrap 5 Admin Dashboard Template</title>
       
       <!-- Favicon -->
-      <link rel="shortcut icon" href="{{ asset('assets/images/favicon.ico') }}">
+      <link rel="shortcut icon" href="../../assets/images/favicon.ico">
       
       <!-- Library / Plugin Css Build -->
-      <link rel="stylesheet" href="{{ asset('assets/css/core/libs.min.css') }}">
+      <link rel="stylesheet" href="../../assets/css/core/libs.min.css">
       
       
       <!-- Hope Ui Design System Css -->
-      <link rel="stylesheet" href="../assets/css/hope-ui.min.css?v=5.0.0">
+      <link rel="stylesheet" href="../../assets/css/hope-ui.min.css?v=5.0.0">
       
       <!-- Custom Css -->
-      <link rel="stylesheet" href="../assets/css/custom.min.css?v=5.0.0">
+      <link rel="stylesheet" href="../../assets/css/custom.min.css?v=5.0.0">
       
       <!-- Customizer Css -->
-      <link rel="stylesheet" href="../assets/css/customizer.min.css?v=5.0.0">
+      <link rel="stylesheet" href="../../assets/css/customizer.min.css?v=5.0.0">
       
       <!-- RTL Css -->
-      <link rel="stylesheet" href="../assets/css/rtl.min.css?v=5.0.0">
+      <link rel="stylesheet" href="../../assets/css/rtl.min.css?v=5.0.0">
       
       
   </head>
@@ -131,19 +134,19 @@
             <h5 class="mb-3 mt-4">Scheme Direction</h5>
             <div class="d-grid gap-3 grid-cols-2 mb-4">
               <div class="text-center">
-                <img src="../assets/images/settings/dark/01.png" alt="ltr"
+                <img src="../../assets/images/settings/dark/01.png" alt="ltr"
                   class="mode dark-img img-fluid btn-border p-0 flex-column active mb-2" data-setting="dir-mode"
                   data-name="dir" data-value="ltr">
-                <img src="../assets/images/settings/light/01.png" alt="ltr"
+                <img src="../../assets/images/settings/light/01.png" alt="ltr"
                   class="mode light-img img-fluid btn-border p-0 flex-column active mb-2" data-setting="dir-mode"
                   data-name="dir" data-value="ltr">
                 <span class=" mt-2"> LTR </span>
               </div>
               <div class="text-center">
-                <img src="../assets/images/settings/dark/02.png" alt=""
+                <img src="../../assets/images/settings/dark/02.png" alt=""
                   class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="dir-mode" data-name="dir"
                   data-value="rtl">
-                <img src="../assets/images/settings/light/02.png" alt=""
+                <img src="../../assets/images/settings/light/02.png" alt=""
                   class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="dir-mode" data-name="dir"
                   data-value="rtl">
                 <span class="mt-2 "> RTL </span>
@@ -174,28 +177,28 @@
             <h5 class="mt-4 mb-3">Sidebar Types</h5>
             <div class="d-grid gap-3 grid-cols-3 mb-4">
               <div class="text-center">
-                <img src="../assets/images/settings/dark/03.png" alt="mini"
+                <img src="../../assets/images/settings/dark/03.png" alt="mini"
                   class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar"
                   data-name="sidebar-type" data-value="sidebar-mini">
-                <img src="../assets/images/settings/light/03.png" alt="mini"
+                <img src="../../assets/images/settings/light/03.png" alt="mini"
                   class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar"
                   data-name="sidebar-type" data-value="sidebar-mini">
                 <span class="mt-2">Mini</span>
               </div>
               <div class="text-center">
-                <img src="../assets/images/settings/dark/04.png" alt="hover"
+                <img src="../../assets/images/settings/dark/04.png" alt="hover"
                   class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar"
                   data-name="sidebar-type" data-value="sidebar-hover" data-extra-value="sidebar-mini">
-                <img src="../assets/images/settings/light/04.png" alt="hover"
+                <img src="../../assets/images/settings/light/04.png" alt="hover"
                   class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar"
                   data-name="sidebar-type" data-value="sidebar-hover" data-extra-value="sidebar-mini">
                 <span class="mt-2">Hover</span>
               </div>
               <div class="text-center">
-                <img src="../assets/images/settings/dark/05.png" alt="boxed"
+                <img src="../../assets/images/settings/dark/05.png" alt="boxed"
                   class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar"
                   data-name="sidebar-type" data-value="sidebar-boxed">
-                <img src="../assets/images/settings/light/05.png" alt="boxed"
+                <img src="../../assets/images/settings/light/05.png" alt="boxed"
                   class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar"
                   data-name="sidebar-type" data-value="sidebar-boxed">
                 <span class="mt-2">Boxed</span>
@@ -205,37 +208,37 @@
             <h5 class="mt-4 mb-3">Sidebar Active Style</h5>
             <div class="d-grid gap-3 grid-cols-2 mb-4">
               <div class="text-center">
-                <img src="../assets/images/settings/dark/06.png" alt="rounded-one-side"
+                <img src="../../assets/images/settings/dark/06.png" alt="rounded-one-side"
                   class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar"
                   data-name="sidebar-item" data-value="navs-rounded">
-                <img src="../assets/images/settings/light/06.png" alt="rounded-one-side"
+                <img src="../../assets/images/settings/light/06.png" alt="rounded-one-side"
                   class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar"
                   data-name="sidebar-item" data-value="navs-rounded">
                 <span class="mt-2">Rounded One Side</span>
               </div>
               <div class="text-center">
-                <img src="../assets/images/settings/dark/07.png" alt="rounded-all"
+                <img src="../../assets/images/settings/dark/07.png" alt="rounded-all"
                   class="mode dark-img img-fluid btn-border p-0 flex-column active mb-2" data-setting="sidebar"
                   data-name="sidebar-item" data-value="navs-rounded-all">
-                <img src="../assets/images/settings/light/07.png" alt="rounded-all"
+                <img src="../../assets/images/settings/light/07.png" alt="rounded-all"
                   class="mode light-img img-fluid btn-border p-0 flex-column active mb-2" data-setting="sidebar"
                   data-name="sidebar-item" data-value="navs-rounded-all">
                 <span class="mt-2">Rounded All</span>
               </div>
               <div class="text-center">
-                <img src="../assets/images/settings/dark/08.png" alt="pill-one-side"
+                <img src="../../assets/images/settings/dark/08.png" alt="pill-one-side"
                   class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar"
                   data-name="sidebar-item" data-value="navs-pill">
-                <img src="../assets/images/settings/light/09.png" alt="pill-one-side"
+                <img src="../../assets/images/settings/light/09.png" alt="pill-one-side"
                   class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar"
                   data-name="sidebar-item" data-value="navs-pill">
                 <span class="mt-2">Pill One Side</span>
               </div>
               <div class="text-center">
-                <img src="../assets/images/settings/dark/09.png" alt="pill-all"
+                <img src="../../assets/images/settings/dark/09.png" alt="pill-all"
                   class="mode dark-img img-fluid btn-border p-0 flex-column" data-setting="sidebar" data-name="sidebar-item"
                   data-value="navs-pill-all">
-                <img src="../assets/images/settings/light/08.png" alt="pill-all"
+                <img src="../../assets/images/settings/light/08.png" alt="pill-all"
                   class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar"
                   data-name="sidebar-item" data-value="navs-pill-all">
                 <span class="mt-2">Pill All</span>
@@ -245,37 +248,37 @@
             <h5 class="mt-4 mb-3">Navbar Style</h5>
             <div class="d-grid gap-3 grid-cols-2 ">
               <div class=" text-center">
-                <img src="../assets/images/settings/dark/11.png" alt="image"
+                <img src="../../assets/images/settings/dark/11.png" alt="image"
                   class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="navbar"
                   data-target=".iq-navbar" data-name="navbar-type" data-value="nav-glass">
-                <img src="../assets/images/settings/light/10.png" alt="image"
+                <img src="../../assets/images/settings/light/10.png" alt="image"
                   class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="navbar"
                   data-target=".iq-navbar" data-name="navbar-type" data-value="nav-glass">
                 <span class="mt-2">Glass</span>
               </div>
               <div class=" text-center">
-                <img src="../assets/images/settings/dark/12.png" alt="sticky"
+                <img src="../../assets/images/settings/dark/12.png" alt="sticky"
                   class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="navbar"
                   data-target=".iq-navbar" data-name="navbar-type" data-value="navs-sticky">
-                <img src="../assets/images/settings/light/12.png" alt="sticky"
+                <img src="../../assets/images/settings/light/12.png" alt="sticky"
                   class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="navbar"
                   data-target=".iq-navbar" data-name="navbar-type" data-value="navs-sticky">
                 <span class="mt-2">Sticky</span>
               </div>
               <div class="text-center">
-                <img src="../assets/images/settings/dark/13.png" alt="transparent"
+                <img src="../../assets/images/settings/dark/13.png" alt="transparent"
                   class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="navbar"
                   data-target=".iq-navbar" data-name="navbar-type" data-value="navs-transparent">
-                <img src="../assets/images/settings/light/13.png" alt="transparent"
+                <img src="../../assets/images/settings/light/13.png" alt="transparent"
                   class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="navbar"
                   data-target=".iq-navbar" data-name="navbar-type" data-value="navs-transparent">
                 <span class="mt-2">Transparent</span>
               </div>
               <div class="text-center">
-                <img src="../assets/images/settings/dark/10.png" alt="color"
+                <img src="../../assets/images/settings/dark/10.png" alt="color"
                   class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="navbar"
                   data-target=".iq-navbar" data-name="navbar-type" data-value="default">
-                <img src="../assets/images/settings/light/01.png" alt="color"
+                <img src="../../assets/images/settings/light/01.png" alt="color"
                   class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="navbar"
                   data-name="navbar-default" data-value="default">
                 <span class="mt-2">Default</span>
@@ -292,100 +295,58 @@
     
       <div class="wrapper">
       <section class="login-content">
-         <div class="row m-0 align-items-center bg-white vh-100">            
-            <div class="col-md-6">
-               <div class="row justify-content-center">
-                  <div class="col-md-10">
-                     <div class="card card-transparent shadow-none d-flex justify-content-center mb-0 auth-card">
-                        <div class="card-body z-3 px-md-0 px-lg-4">
-                           <a href="../dashboard/index.html" class="navbar-brand d-flex align-items-center mb-3">
-                              
-                              <!--Logo start-->
-                              <div class="logo-main">
-                                  <div class="logo-normal">
-                                      <svg class="text-primary icon-30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                          <rect x="-0.757324" y="19.2427" width="28" height="4" rx="2" transform="rotate(-45 -0.757324 19.2427)" fill="currentColor"/>
-                                          <rect x="7.72803" y="27.728" width="28" height="4" rx="2" transform="rotate(-45 7.72803 27.728)" fill="currentColor"/>
-                                          <rect x="10.5366" y="16.3945" width="16" height="4" rx="2" transform="rotate(45 10.5366 16.3945)" fill="currentColor"/>
-                                          <rect x="10.5562" y="-0.556152" width="28" height="4" rx="2" transform="rotate(45 10.5562 -0.556152)" fill="currentColor"/>
-                                      </svg>
-                                  </div>
-                                  <div class="logo-mini">
-                                      <svg class="text-primary icon-30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                          <rect x="-0.757324" y="19.2427" width="28" height="4" rx="2" transform="rotate(-45 -0.757324 19.2427)" fill="currentColor"/>
-                                          <rect x="7.72803" y="27.728" width="28" height="4" rx="2" transform="rotate(-45 7.72803 27.728)" fill="currentColor"/>
-                                          <rect x="10.5366" y="16.3945" width="16" height="4" rx="2" transform="rotate(45 10.5366 16.3945)" fill="currentColor"/>
-                                          <rect x="10.5562" y="-0.556152" width="28" height="4" rx="2" transform="rotate(45 10.5562 -0.556152)" fill="currentColor"/>
-                                      </svg>
-                                  </div>
-                              </div>
-                              <!--logo End-->
-                              
-                              
-                              
-                              
-                              <h4 class="logo-title ms-3">Hope UI</h4>
-                           </a>
-                           <h2 class="mb-2 text-center">Sign In</h2>
-                           <p></p>
-                           <form action="{{ route('login') }}" method="POST">
-                            @csrf
-                              <div class="row">
-                                <div class="col-lg-12">
-                                  <div class="form-group">
-                                      <label for="login" class="form-label">Username, Email, or Phone Number</label>
-                                      <input type="text" class="form-control" id="login" name="login" required aria-describedby="login" placeholder="Enter your username, email, or phone number">
-                                      @error('login')
-                                          <div class="text-danger">{{ $message }}</div>
-                                      @enderror
-                                  </div>
-                              </div>
-                              <div class="col-lg-12">
-                                  <div class="form-group">
-                                      <label for="password" class="form-label">Password</label>
-                                      <input type="password" class="form-control" id="password" name="password" required aria-describedby="password" placeholder="Enter your password">
-                                      @error('password')
-                                          <div class="text-danger">{{ $message }}</div>
-                                      @enderror
-                                  </div>
-                              </div>
-                                 <div class="col-lg-12 d-flex justify-content-between">
-                                    <div class="form-check mb-3">
-                                       <input type="checkbox" class="form-check-input" id="remember" name="remember">
-                                       <label class="form-check-label" for="customCheck1">Remember Me</label>
-                                    </div>
-                                    <a href="{{ route('reset') }}">Forgot Password?</a>
-                                 </div>
-                              </div>
-                              <div class="d-flex justify-content-center">
-                                 <button type="submit" class="btn btn-primary">Sign In</button>
-                              </div>
-                              <p class="text-center my-3">or sign in with other accounts?</p>
-                              <div class="d-flex justify-content-center">
-                                 <ul class="list-group list-group-horizontal list-group-flush">
-                                    <li class="list-group-item border-0 pb-0">
-                                       <a href="#"><img src="../assets/images/brands/fb.svg" alt="fb"></a>
-                                    </li>
-                                    <li class="list-group-item border-0 pb-0">
-                                       <a href="#"><img src="../assets/images/brands/gm.svg" alt="gm"></a>
-                                    </li>
-                                    <li class="list-group-item border-0 pb-0">
-                                       <a href="#"><img src="../assets/images/brands/im.svg" alt="im"></a>
-                                    </li>
-                                    <li class="list-group-item border-0 pb-0">
-                                       <a href="#"><img src="../assets/images/brands/li.svg" alt="li"></a>
-                                    </li>
-                                 </ul>
-                              </div>
-                              <p class="mt-3 text-center">
-                                 Don’t have an account? <a href="dashboard/index.blade.php" class="text-underline">Click here to sign up.</a>
-                              </p>
-                           </form>
+         <div class="row m-0 align-items-center bg-white vh-100">
+            <div class="col-md-6 d-md-block d-none bg-primary p-0 mt-n1 vh-100 overflow-hidden">
+               <img src="../../assets/images/auth/02.png" class="img-fluid gradient-main animated-scaleX" alt="images">
+            </div>
+            <div class="col-md-6 p-0">               
+               <div class="card card-transparent auth-card shadow-none d-flex justify-content-center mb-0">
+                  <div class="card-body z-3">
+                     <a href="../../dashboard/index.html" class="navbar-brand d-flex align-items-center mb-3">
+                        
+                        <!--Logo start-->
+                        <div class="logo-main">
+                            <div class="logo-normal">
+                                <svg class="text-primary icon-30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="-0.757324" y="19.2427" width="28" height="4" rx="2" transform="rotate(-45 -0.757324 19.2427)" fill="currentColor"/>
+                                    <rect x="7.72803" y="27.728" width="28" height="4" rx="2" transform="rotate(-45 7.72803 27.728)" fill="currentColor"/>
+                                    <rect x="10.5366" y="16.3945" width="16" height="4" rx="2" transform="rotate(45 10.5366 16.3945)" fill="currentColor"/>
+                                    <rect x="10.5562" y="-0.556152" width="28" height="4" rx="2" transform="rotate(45 10.5562 -0.556152)" fill="currentColor"/>
+                                </svg>
+                            </div>
+                            <div class="logo-mini">
+                                <svg class="text-primary icon-30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="-0.757324" y="19.2427" width="28" height="4" rx="2" transform="rotate(-45 -0.757324 19.2427)" fill="currentColor"/>
+                                    <rect x="7.72803" y="27.728" width="28" height="4" rx="2" transform="rotate(-45 7.72803 27.728)" fill="currentColor"/>
+                                    <rect x="10.5366" y="16.3945" width="16" height="4" rx="2" transform="rotate(45 10.5366 16.3945)" fill="currentColor"/>
+                                    <rect x="10.5562" y="-0.556152" width="28" height="4" rx="2" transform="rotate(45 10.5562 -0.556152)" fill="currentColor"/>
+                                </svg>
+                            </div>
                         </div>
-                     </div>
+                        <!--logo End-->
+                        
+                        
+                        
+                        
+                        <h4 class="logo-title ms-3">Hope UI</h4>
+                     </a>
+                     <h2 class="mb-2">Reset Password</h2>
+                     <p>Enter your email address and we'll send you an email with instructions to reset your password.</p>
+                     <form method="POST" action="{{ route('reset') }}">
+                      @csrf
+                        <div class="row">
+                           <div class="col-lg-12">
+                              <div class="floating-label form-group">
+                                 <label for="email" class="form-label">Email</label>
+                                 <input type="email" class="form-control" id="email" name="email" aria-describedby="email" placeholder=" ">
+                              </div>
+                           </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Reset</button>
+                     </form>
                   </div>
                </div>
-               <div class="sign-bg">
+               <div class="sign-bg sign-bg-right">
                   <svg width="280" height="230" viewBox="0 0 431 398" fill="none" xmlns="http://www.w3.org/2000/svg">
                      <g opacity="0.05">
                      <rect x="-157.085" y="193.773" width="543" height="77.5714" rx="38.7857" transform="rotate(-45 -157.085 193.773)" fill="#3B8AFF"/>
@@ -396,41 +357,38 @@
                   </svg>
                </div>
             </div>
-            <div class="col-md-6 d-md-block d-none bg-primary p-0 mt-n1 vh-100 overflow-hidden">
-               <img src="../assets/images/auth/01.png" class="img-fluid gradient-main animated-scaleX" alt="images">
-            </div>
          </div>
       </section>
       </div>
     <!-- Library Bundle Script -->
-    <script src="../assets/js/core/libs.min.js"></script>
+    <script src="../../assets/js/core/libs.min.js"></script>
     
     <!-- External Library Bundle Script -->
-    <script src="../assets/js/core/external.min.js"></script>
+    <script src="../../assets/js/core/external.min.js"></script>
     
     <!-- Widgetchart Script -->
-    <script src="../assets/js/charts/widgetcharts.js"></script>
+    <script src="../../assets/js/charts/widgetcharts.js"></script>
     
     <!-- mapchart Script -->
-    <script src="../assets/js/charts/vectore-chart.js"></script>
-    <script src="../assets/js/charts/dashboard.js" ></script>
+    <script src="../../assets/js/charts/vectore-chart.js"></script>
+    <script src="../../assets/js/charts/dashboard.js" ></script>
     
     <!-- fslightbox Script -->
-    <script src="../assets/js/plugins/fslightbox.js"></script>
+    <script src="../../assets/js/plugins/fslightbox.js"></script>
     
     <!-- Settings Script -->
-    <script src="../assets/js/plugins/setting.js"></script>
+    <script src="../../assets/js/plugins/setting.js"></script>
     
     <!-- Slider-tab Script -->
-    <script src="../assets/js/plugins/slider-tabs.js"></script>
+    <script src="../../assets/js/plugins/slider-tabs.js"></script>
     
     <!-- Form Wizard Script -->
-    <script src="../assets/js/plugins/form-wizard.js"></script>
+    <script src="../../assets/js/plugins/form-wizard.js"></script>
     
     <!-- AOS Animation Plugin-->
     
     <!-- App Script -->
-    <script src="../assets/js/hope-ui.js" defer></script>
+    <script src="../../assets/js/hope-ui.js" defer></script>
     
     
   </body>
