@@ -1,0 +1,20 @@
+<?php
+return [
+    'add_title' => 'Tambah Pasokan',
+    'add_desc' => 'Isi detail di bawah ini untuk menambahkan pasokan baru',
+    'label_name' => 'Nama Pasokan',
+    'label_desc' => 'Deskripsi Pasokan',
+    'label_price_per_unit' => 'Harga per Unit',
+    'label_unit_of_measurement' => 'Satuan Ukuran',
+    'label_quantity' => 'Jumlah',
+    'label_date_aquired' => 'Tanggal Diterima',
+    'label_lokasi' => 'Lokasi',
+    'label_supplier_name' => 'Nama Pemasok',
+    'label_low_stock_percentage' => 'Persentase stok sedikit',
+    'label_status' => 'Status Pasokan',
+    'placeholder_name' => 'Masukkan Nama Pasokan',
+    'placeholder_unit_of_measurement' => 'Masukkan Satuan Ukuran dari pasokan',
+    'placeholder_location' => 'Masukkan Lokasi Pasokan Disimpan',
+    'placeholder_supplier_name' => 'Masukkan Nama Pemasok',
+    'option_status_default' => 'Pilih status pasokan',
+];
