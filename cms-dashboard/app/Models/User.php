@@ -18,12 +18,17 @@ class User extends Authenticatable // Extend Authenticatable instead of Model
     ];
     protected $fillable = [
         'role_id',
+        'name',
         'username',
         'email',
         'password',
         'address',
-        'is_verified',
+        'email_is_verified',
+        'phone_is_verified',
         'phone_number',
+        'profile_picture_url',
+        'date_created',
+        'date_updated',
     ];
 
     public function role()
@@ -41,8 +46,4 @@ class User extends Authenticatable // Extend Authenticatable instead of Model
         return $this->hasMany(Review::class);
     }
 
-    public function cartItems()
-    {
-        return $this->hasMany(Cart::class);
-    }
 }

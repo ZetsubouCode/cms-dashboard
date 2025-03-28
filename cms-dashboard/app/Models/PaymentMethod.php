@@ -17,8 +17,8 @@ class PaymentMethod extends Model
         'status',
     ];
 
-    public function payments()
+    public function order()
     {
-        return $this->hasMany(Payment::class);
+        return $this->hasMany(Order::class);
     }
 }
