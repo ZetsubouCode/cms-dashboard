@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'Ecommerce'),
 
     /*
     |--------------------------------------------------------------------------
@@ -78,7 +78,7 @@ return [
     |
     */
 
-    'locale' => env('APP_LOCALE', 'en'),
+    'locale' => env('APP_LOCALE', 'id'),
 
     'fallback_locale' => env('APP_FALLBACK_LOCALE', 'en'),
 
@@ -123,4 +123,12 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    
+    /*
+    |-------------------------------------
+    | Custom variable
+    |-------------------------------------
+    */
+    'cdn_api_host' => env('CDN_API_HOST', 'http://127.0.0.1'),
+    'mailer_api_host' => env('MAILER_API_HOST', 'http://127.0.0.1'),
 ];
